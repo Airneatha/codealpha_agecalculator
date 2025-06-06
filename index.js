@@ -1,4 +1,4 @@
-// --- NEW Comprehensive Reset Function ---
+
 function resetAll() {
     // 1. Clear the birth date input
     const birthdateInput = document.getElementById('birthdate');
@@ -220,8 +220,7 @@ function calculateAge() {
 
 // --- Initial Setup and Event Listeners ---
 
-// Get a reference to your reset button (using the corrected ID)
-const resetButtonElement = document.getElementById('resetBtn'); // Changed to 'resetBtn'
+const resetButtonElement = document.getElementById('resetBtn'); 
 
 // Add an event listener to call resetButton and refreshCalculator when clicked
 if (resetButtonElement) {

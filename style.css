@@ -28,11 +28,11 @@ body{
 
 .refresh-button{
     position: fixed;
-    bottom: 30px;
+    top: 30px;
     right: 30px;
     padding: 10px 15px;
-    margin-bottom: 150px;
-    margin-right: 250px;
+    margin-bottom: 50px;
+    margin-right: 50px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -66,7 +66,6 @@ body{
     height: 200%;
     text-align: center;
     margin-top: -100px;
-    margin-left: -200px;
     transform: translateY(0);
     transition: transform 0.3s ease;
 }
